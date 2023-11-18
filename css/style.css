@@ -9,6 +9,10 @@ html{
   overflow-x: hidden;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .header{
   display: flex;
   padding: 0 4.2rem;
@@ -31,6 +35,11 @@ html{
 .links:link,.links:visited{
   text-decoration: none;
   color: #303030;
+  transition: all 0.5s;
+}
+.links:hover,.links:active{
+  text-decoration: underline;
+  color: #303030;
 }
 
 
@@ -38,7 +47,13 @@ html{
   padding-right: 2rem;
 }
 
-.links .contact-link{
+
+.link:link, .link-visited{
+  text-decoration: none;
+  color: #fff;
+}
+.link:hover, .link-active{
+  text-decoration: none;
   color: #fff;
 }
 
@@ -47,4 +62,44 @@ html{
   text-align: center;
   padding: 0.5rem 1.3rem;
   border-radius: 10px;
+  
+}
+
+.hero-section{
+  padding: 4.8rem 0;
+  background-color: #EFEFEF;
+}
+
+.hero-img{
+  display: flex;
+  justify-content: center;
+}
+.hero--img{
+  width: 80%;
+}
+
+.mission{
+  background-color: #155D48;
+  padding: 4.8rem 0;
+}
+
+
+
+.company--overview{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.header-secondary{
+  font-size: 2rem;
+  color: #EFEFEF;
+  margin-bottom: 2rem;
+}
+.company--overview-text{
+  color: #EFEFEF;
+  font-size: 1.2rem;
+  width: 30rem;
+  line-height: 1.5;
 }
