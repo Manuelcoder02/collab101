@@ -1,0 +1,41 @@
+[33mcommit 849a78a7ebd327e54822be67ba38903ac67f14d3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: feb54ec cca467a
+Author: Chukwudi Okoro <117749570+Donchuks02@users.noreply.github.com>
+Date:   Fri Nov 17 12:07:07 2023 +0100
+
+    Merge pull request #2 from Bewizi/Tolu
+    
+    Bewizi
+
+[33mcommit cca467a759de7701adeba081f968b95df98c4708[m
+Author: Bewizi <toluwalase.bewaji@yahoo.com>
+Date:   Fri Nov 17 11:56:56 2023 +0100
+
+    Bewizi
+
+[33mcommit feb54ecaae4914c81a1291ce474709ecdae8ca00[m
+Merge: 16354f1 3b731fc
+Author: Chukwudi Okoro <117749570+Donchuks02@users.noreply.github.com>
+Date:   Fri Nov 17 10:46:35 2023 +0100
+
+    Merge pull request #1 from Donchuks02/developmentBranch
+    
+    initial commit: created a HTML boiler plate
+
+[33mcommit 3b731fc965e3ff1b135a48935363e229102b6aff[m
+Author: Donchuks02 <chukwudidavid02@gmail.com>
+Date:   Fri Nov 17 10:39:59 2023 +0100
+
+    initial commit: created a HTML boiler plate
+
+[33mcommit 16354f19ae8e75cc48dcf1cb11e0f2dd664510a9[m
+Author: Chukwudi Okoro <117749570+Donchuks02@users.noreply.github.com>
+Date:   Fri Nov 17 10:21:50 2023 +0100
+
+    Updated  README.md
+
+[33mcommit 962340f98973361db177307b05ca0da85e52355a[m
+Author: Chukwudi Okoro <117749570+Donchuks02@users.noreply.github.com>
+Date:   Fri Nov 17 10:13:33 2023 +0100
+
+    Initial commit
