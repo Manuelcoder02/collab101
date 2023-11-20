@@ -1,104 +1,114 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 75%;
   overflow-x: hidden;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-.header{
+/* ******** 
+   ****** HEADER SECTION ******
+********** */
+
+.header {
   display: flex;
   padding: 0 4.2rem;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-link{
+.nav-link {
   display: flex;
   font-size: 1.5rem;
-  
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   list-style: none;
   gap: 2rem;
 }
 
-.links:link,.links:visited{
+.links:link,
+.links:visited {
   text-decoration: none;
   color: #303030;
   transition: all 0.5s;
 }
-.links:hover,.links:active{
+.links:hover,
+.links:active {
   text-decoration: underline;
   color: #303030;
 }
 
-
-.link-list{
+.link-list {
   padding-right: 2rem;
 }
 
-
-.link:link, .link-visited{
+.link:link,
+.link-visited {
   text-decoration: none;
   color: #fff;
 }
-.link:hover, .link-active{
+.link:hover,
+.link-active {
   text-decoration: none;
   color: #fff;
 }
 
-.contact-link{
-  background-color: #155D48;
+.contact-link {
+  background-color: #155d48;
   text-align: center;
   padding: 0.5rem 1.3rem;
   border-radius: 10px;
-  
 }
 
-.hero-section{
+/* ******** 
+   ****** HERO SECTION ******
+********** */
+
+.hero-section {
   padding: 4.8rem 0;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
-.hero-img{
+.hero-img {
   display: flex;
   justify-content: center;
 }
-.hero--img{
+.hero--img {
   width: 80%;
 }
 
-.mission{
-  background-color: #155D48;
+/* ******** 
+   ****** MISSION SECTION ******
+********** */
+
+.mission {
+  background-color: #155d48;
   padding: 4.8rem 0;
 }
 
-
-
-.company--overview{
+.company--overview {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
 }
 
-.header-secondary{
+.header-secondary {
   font-size: 2rem;
-  color: #EFEFEF;
+  color: #efefef;
   margin-bottom: 2rem;
 }
-.company--overview-text{
-  color: #EFEFEF;
+.company--overview-text {
+  color: #efefef;
   font-size: 1.2rem;
   width: 30rem;
   line-height: 1.5;
