@@ -88,6 +88,11 @@ Users should be able to:
 - Facebook - [Sotunde Fenwa](https://facebook.com/sotunde.emmanuel.7)
 - LinkedIn - [Sotunde Emmanuel](https://www.linkedin.com/in/sotunde-emmanuel)
 
+### Chetachi
+
+- Twitter - [cheta_i](https://x.com/cheta_i?t=hZbtFJkPBL-vjAXIuNjePw&s=09)
+- Behance - [chetachi ihekwaba](https://www.behance.net/chetachiihekwaba)
+
 ## Acknowledgments
 
 A big thanks to the authors of the projects, for their dedication, commitmment and effective collaboration/communication skills.

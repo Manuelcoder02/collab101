@@ -51,3 +51,157 @@ html {
   padding: 0.5rem 1.3rem;
   border-radius: 10px;
 }
+html {
+  font-size: 75%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*  Added a container css rule. if you use this to any container, it will give the container a width of 80% and max-width of 1200px to prevent overstretching of a conatiner on a larger screen */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ********
+   ****** HEADER SECTION ******
+********** */
+
+.header {
+  display: flex;
+  padding: 0 4.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.links:link,
+.links:visited {
+  text-decoration: none;
+  color: #303030;
+  transition: all 0.5s;
+}
+
+.links:hover,
+.links:active {
+  text-decoration: underline;
+  color: #303030;
+}
+
+.link-list {
+  padding-right: 2rem;
+}
+
+.link:link,
+.link-visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover,
+.link-active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-link {
+  background-color: #155d48;
+  text-align: center;
+  padding: 0.5rem 1.3rem;
+  border-radius: 10px;
+}
+
+/* ********
+   ****** HERO SECTION ******
+********** */
+
+.hero-section {
+  padding: 4.8rem 0;
+  background-color: #efefef;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+}
+
+.hero--img {
+  width: 80%;
+}
+
+/* ********
+   ****** MISSION SECTION ******
+********** */
+
+.mission {
+  background-color: #155d48;
+  padding: 4.8rem 0;
+}
+
+.company--overview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.header-secondary {
+  font-size: 2rem;
+  color: #efefef;
+  margin-bottom: 2rem;
+}
+
+.company--overview-text {
+  color: #efefef;
+  font-size: 1.2rem;
+  width: 30rem;
+  line-height: 1.5;
+}
+
+/* Our services section */
+
+.our-services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-services-header h1,
+.our-partners-header h1 {
+  color: #303030;
+  font-size: 2rem;
+}
+
+/* Our partners section */
+
+.our-partners-wrapper,
+.our-services-header {
+  padding: 2rem;
+}
+
+.our-partners-wrapper {
+  background-color: #c5f7e9;
+}
+
+.our-partners-header {
+  margin-bottom: 3rem;
+}
+
+.our-partners {
+  display: flex;
+  justify-content: space-between;
+}
