@@ -41,6 +41,7 @@ html {
   padding-right: 2rem;
 }
 
+
 .links .contact-link {
   color: #fff;
 }
@@ -58,6 +59,10 @@ html {
 
 body {
   overflow-x: hidden;
+}
+
+img {
+    width: auto;
 }
 
 /*  Added a container css rule. if you use this to any container, it will give the container a width of 80% and max-width of 1200px to prevent overstretching of a conatiner on a larger screen */
@@ -180,6 +185,10 @@ body {
   justify-content: space-between;
 }
 
+.our-services-for-mobile {
+    display: none;
+}
+
 .our-services-header h1,
 .our-partners-header h1 {
   color: #303030;
@@ -187,6 +196,15 @@ body {
 }
 
 /* Our partners section */
+
+.our-partners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-partners-for-moblie {
+    display: none;
+}
 
 .our-partners-wrapper,
 .our-services-header {
@@ -201,7 +219,32 @@ body {
   margin-bottom: 3rem;
 }
 
-.our-partners {
-  display: flex;
-  justify-content: space-between;
+
+/* ///////////////////////////////////////////////////////////// */
+
+
+/* STYLING FOR MOBILE VIEW */
+
+@media (max-width: 500px) {
+    .our-partners,
+    .our-services {
+        display: none;
+    }
+    .our-services-for-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    .our-partners-for-moblie img,
+    .our-services-for-mobile img {
+        width: 100%;
+    }
+    .our-partners-for-moblie {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
 }
