@@ -1,7 +1,7 @@
-# Renje WebApp collab101
+# Renue WebApp collab101
 
 This project is team work created to practise how to collaborate on a project.
-We are building Renje landing page, a company that deals with providing renewable energy solutions, solar and wind technologies
+We are building Renue landing page, a company that deals with providing renewable energy solutions, solar and wind technologies
 
 ## Table of contents
 
@@ -25,7 +25,10 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Submit their contact information.
+- Add their information and submit the form.
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
 
 ### Screenshot
 
@@ -34,9 +37,9 @@ Users should be able to:
 
 ### Links
 
-- GitHub Repo URL: [Renje collab101 - GitHub](https://github.com/Donchuks02/collab101)
-- Live Site URL: [Renje WebApp](https://colb001.netlify.app/)
-- Figma Design URL: [Renje - Figma](https://www.figma.com/file/NqJB2JZGJvFxt5Hw4W7Fsj/Untitled?type=design&node-id=0%3A131&mode=design&t=ODB9gOxKIS1RPXwJ-1)
+- GitHub Repo URL: [Renue collab101 - GitHub](https://github.com/Donchuks02/collab101)
+- Live Site URL: [Renue WebApp](https://colb001.netlify.app/)
+- Figma Design URL: [Renue - Figma](https://www.figma.com/file/NqJB2JZGJvFxt5Hw4W7Fsj/Untitled?type=design&node-id=0%3A131&mode=design&t=ODB9gOxKIS1RPXwJ-1)
 
 ## Our process
 
@@ -49,19 +52,22 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
-### What I learned
+### What we learned
 
-- What we learned in the course of this project will go here...
+- Forking, Cloning, and making pull request on Git terminal and GitHub
+- Merge and resolve conflicts
+-
 
 ### Continued development
 
-- What we are going to keep learning/working on...
+- Collaborating with open source projects
+- The open source command tools
 
 ### Useful resources
 
-- Resources that help us with the link...
+- [Github Resolve Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) - It helped one of the contributors of this project to resolve conflicts between his branch and the main branch.
 
-## Author
+## Authors
 
 ### Dev Chukwudi
 
@@ -91,7 +97,7 @@ Users should be able to:
 ### Chetachi
 
 - Twitter - [cheta_i](https://x.com/cheta_i?t=hZbtFJkPBL-vjAXIuNjePw&s=09)
-- Behance - [chetachi ihekwaba](https://www.behance.net/chetachiihekwaba)
+- Behance - [Chetachi Ihekwaba](https://www.behance.net/chetachiihekwaba)
 
 ## Acknowledgments
 

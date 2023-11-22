@@ -18,7 +18,7 @@ Desktop - 1440px
 
 - Very Dark Grey (Navigation bar/Footer text): #303030
 - Dark Grey (Services/Partners header text): #1B1B1B
-- Grey (Placeholder text): ##B8B8B8
+- Grey (Placeholder text): #B8B8B8
 - Light grey (Button text): #ECF2EE
 - Very light grey (Hero text/Body text): #EFEFEF
 
